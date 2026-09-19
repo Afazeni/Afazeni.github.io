@@ -1,0 +1,27 @@
+[
+  {
+    "source": "过障分析.mp4",
+    "video": "care-obstacle.mp4",
+    "poster": "care-obstacle.webp"
+  },
+  {
+    "source": "精准与均匀送料.mp4",
+    "video": "printer-feed.mp4",
+    "poster": "printer-feed.webp"
+  },
+  {
+    "source": "自动换料设计.gif",
+    "video": "printer-switch.mp4",
+    "poster": "printer-switch.webp"
+  },
+  {
+    "source": "旋转收纳设计.gif",
+    "video": "printer-fold.mp4",
+    "poster": "printer-fold.webp"
+  },
+  {
+    "source": "模块化设计.mp4",
+    "video": "printer-modular.mp4",
+    "poster": "printer-modular.webp"
+  }
+]
