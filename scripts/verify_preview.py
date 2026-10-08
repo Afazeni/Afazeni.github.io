@@ -46,8 +46,8 @@ def verify():
         expect(page.locator('html')).to_have_attribute('lang', 'en')
         checks.append('Language selection persists through navigation and reload')
         page.goto(BASE+'honors.html?lang=zh')
-        assert page.locator('.award-card:visible').count()==19
-        for year,count in [('2026',7),('2025',12),('all',19)]:
+        assert page.locator('.award-card:visible').count()==20
+        for year,count in [('2026',8),('2025',12),('all',20)]:
             page.locator(f'[data-filter="{year}"]').click()
             assert page.locator('.award-card:visible').count()==count
         trigger=page.locator('.award-card .certificate-preview').first
@@ -57,7 +57,7 @@ def verify():
         page.keyboard.press('Escape')
         assert not page.locator('dialog').is_visible()
         assert trigger.evaluate('(el)=>document.activeElement===el')
-        checks.append('All 19 certificates; year filters; dialog Escape and focus restoration')
+        checks.append('All 20 certificates; year filters; dialog Escape and focus restoration')
         for id in ['care','grooming','printer','frog']:
             page.goto(BASE+f'project.html?id={id}&lang=zh')
             page.locator('.video-section video').evaluate('(v)=>{v.load();return v.play()}')

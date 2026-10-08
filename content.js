@@ -614,6 +614,7 @@ export const projects = [
 ];
 
 export const awards = [
+  {id:20, year:2026, level:'national', title:b('中国大学生机械工程创新创意大赛 · 智能装备创新设计赛','Chinese College Students Mechanical Engineering Innovation Competition · Intelligent Equipment Design'), prize:b('一等奖','First Prize'), work:b('灵筑安伴——多构型老人陪护机器人','Lingzhu Companion · Reconfigurable Elderly Care Robot')},
   {id:1, year:2026, level:'national', title:b('中国大学生机械工程创新创意大赛','Chinese College Students Mechanical Engineering Innovation Competition'), prize:b('全国二等奖','National Second Prize'), work:b('安伴智护 · 机械产品数字化设计赛','Anban Care · Digital Mechanical Product Design')},
   {id:14, year:2026, level:'national', title:b('第九届中国高校智能机器人创意大赛','9th China University Intelligent Robot Creative Competition'), prize:b('全国二等奖','National Second Prize'), work:b('锋度绅士 · 男士面部护理机器人','Gentleman Grooming · Facial Care Robot')},
   {id:8, year:2026, level:'national', title:b('睿抗机器人开发者大赛（RAICOM）','RAICOM Robotics Developer Competition'), prize:b('全国二等奖','National Second Prize'), work:b('物流挑战竞赛','Logistics Challenge')},
